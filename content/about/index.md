@@ -3,8 +3,6 @@ title: About Me
 hidemeta: true
 ---
 
-![Thinking in Motion logo](logo.png)
-
 {{< avatar >}}
 
 I'm Brett Earle, a software engineer with a passion for building things, solving problems, and understanding how the world works.
@@ -24,3 +22,5 @@ It's part learning journal, part exploration of ideas, and part reflection on th
 I'm not here to pretend I have all the answers. I'm here to think out loud, share what I'm learning, and hopefully spark a few worthwhile conversations.
 
 **Think clearly. Move deliberately.**
+
+![Thinking in Motion logo](logo.png)
