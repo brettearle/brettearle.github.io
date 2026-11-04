@@ -1,0 +1,42 @@
+/* Thinking in Motion palette, taken from the logo. */
+:root {
+    --theme: #faf6ec;
+    --entry: #fffdf7;
+    --primary: #0c2011;
+    --secondary: #55624a;
+    --tertiary: #d9d5c1;
+    --content: #1c2a1e;
+    --code-block-bg: #0f2615;
+    --code-bg: #efe9d9;
+    --border: #e4dec9;
+    --accent: #4b6429;
+}
+
+:root[data-theme="dark"] {
+    --theme: #0c2011;
+    --entry: #14301b;
+    --primary: #eee7d4;
+    --secondary: #a7b295;
+    --tertiary: #2c4a30;
+    --content: #dcd8c6;
+    --code-block-bg: #14301b;
+    --code-bg: #1c3a23;
+    --border: #244029;
+    --accent: #b4c27c;
+}
+
+.logo a img {
+    border-radius: 6px;
+}
+
+.md-content a,
+.post-content a,
+.home-info .entry-content a {
+    color: var(--accent);
+    box-shadow: 0 1px 0 var(--accent);
+}
+
+#menu a:hover,
+.post-tags a:hover {
+    color: var(--accent);
+}

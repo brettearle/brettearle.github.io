@@ -1,0 +1,91 @@
+# baseURL is set at deploy time by .github/workflows/deploy.yml, so it follows
+# the repo's GitHub Pages URL (or custom domain) automatically.
+baseURL: /
+title: Thinking in Motion
+theme: PaperMod
+locale: en-au
+timeZone: Australia/Sydney
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home: [HTML, RSS, JSON] # JSON powers the search page
+
+params:
+  env: production
+  title: Thinking in Motion
+  description: Exploring technology, productivity and philosophy to think clearly and navigate change.
+  author: Brett Earle
+  images: [og-image.png] # default social sharing card
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  ShowRssButtonInSectionTermList: true
+  ShowToc: false
+  showtoc: false
+
+  label:
+    text: Thinking in Motion
+    icon: images/logo-mark.png
+    iconHeight: 36
+
+  assets:
+    favicon: favicon.ico
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
+    apple_touch_icon: apple-touch-icon.png
+    theme_color: "#0c2011"
+    msapplication_TileColor: "#0c2011"
+
+  homeInfoParams:
+    Title: Thinking in Motion
+    Content: Exploring technology, productivity and philosophy to think clearly and navigate change.
+
+  socialIcons:
+    # TODO: add your LinkedIn profile or newsletter URL, then uncomment.
+    # - name: linkedin
+    #   url: https://www.linkedin.com/in/your-handle/
+    - name: rss
+      url: index.xml
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys: [title, permalink, summary, content]
+
+menus:
+  main:
+    - name: Archive
+      pageRef: /archives
+      weight: 10
+    - name: Tags
+      pageRef: /tags
+      weight: 20
+    - name: Search
+      pageRef: /search
+      weight: 30
+    - name: About
+      pageRef: /about
+      weight: 40
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
