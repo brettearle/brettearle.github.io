@@ -1,0 +1,4 @@
+{{- with resources.Get "images/brett.jpeg" }}
+{{- $img := .Fill "240x240 center q85" }}
+<img class="avatar" src="{{ $img.Permalink }}" alt="Brett Earle" width="120" height="120">
+{{- end }}

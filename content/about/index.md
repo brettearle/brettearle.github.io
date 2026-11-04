@@ -5,6 +5,8 @@ hidemeta: true
 
 ![Thinking in Motion logo](logo.png)
 
+{{< avatar >}}
+
 I'm Brett Earle, a software engineer with a passion for building things, solving problems, and understanding how the world works.
 
 My background spans software engineering, technical leadership, and a few less conventional paths along the way. I've always been drawn to figuring out how things work, questioning why we do things a certain way, and finding better ways forward.

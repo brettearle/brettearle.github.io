@@ -78,3 +78,63 @@
     color: var(--content);
     font-size: 16px;
 }
+
+.home-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap);
+}
+
+.avatar,
+.post-content .avatar {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+    transform-origin: 50% 90%;
+    animation: bobble 1.4s ease-in-out 0.3s;
+}
+
+/* Separate name, because a browser won't replay an animation with the same name. */
+.avatar:hover {
+    animation: bobble-hover 1.4s ease-in-out;
+}
+
+.post-content .avatar {
+    float: right;
+    margin: 4px 0 12px 20px;
+}
+
+@keyframes bobble-hover {
+    0%, 100% { transform: rotate(0); }
+    15% { transform: rotate(-7deg); }
+    35% { transform: rotate(6deg); }
+    55% { transform: rotate(-4deg); }
+    75% { transform: rotate(2deg); }
+}
+
+@keyframes bobble {
+    0%, 100% { transform: rotate(0); }
+    15% { transform: rotate(-7deg); }
+    35% { transform: rotate(6deg); }
+    55% { transform: rotate(-4deg); }
+    75% { transform: rotate(2deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .avatar,
+    .avatar:hover,
+    .post-content .avatar {
+        animation: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .home-intro {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}

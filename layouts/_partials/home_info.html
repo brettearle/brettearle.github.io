@@ -1,6 +1,8 @@
-{{- /* Copy of the PaperMod partial, with the newsletter button added beside the social icons. */ -}}
+{{- /* Copy of the PaperMod partial, with the newsletter button beside the social icons and a headshot. */ -}}
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+  <div class="home-intro">
+  <div class="home-intro-text">
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
@@ -14,5 +16,8 @@
         <a class="subscribe-button" href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer">{{ .text }}</a>
         {{- end }}
     </footer>
+  </div>
+  {{ partial "avatar.html" . }}
+  </div>
 </article>
 {{- end -}}
