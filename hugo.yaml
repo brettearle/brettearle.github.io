@@ -52,10 +52,13 @@ params:
     Title: Thinking in Motion
     Content: Exploring technology, productivity and philosophy to think clearly and navigate change.
 
+  newsletter:
+    text: Subscribe on LinkedIn
+    url: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7523480655897198592
+
   socialIcons:
-    # TODO: add your LinkedIn profile or newsletter URL, then uncomment.
-    # - name: linkedin
-    #   url: https://www.linkedin.com/in/your-handle/
+    - name: linkedin
+      url: https://www.linkedin.com/in/brettearle/
     - name: rss
       url: index.xml
 

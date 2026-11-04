@@ -40,3 +40,24 @@
 .post-tags a:hover {
     color: var(--accent);
 }
+
+.home-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.subscribe-button {
+    padding: 8px 20px;
+    border-radius: 16px;
+    background-color: #0a66c2;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.subscribe-button:hover {
+    background-color: #004182;
+}
