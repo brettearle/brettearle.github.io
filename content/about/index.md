@@ -23,4 +23,6 @@ I'm not here to pretend I have all the answers. I'm here to think out loud, shar
 
 **Think clearly. Move deliberately.**
 
+{{< connect >}}
+
 ![Thinking in Motion logo](logo.png)

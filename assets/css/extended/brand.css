@@ -125,3 +125,25 @@
         align-items: flex-start;
     }
 }
+
+.subscribe-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.post-content .post-subscribe p {
+    margin: 0;
+}
+
+/* Keep buttons looking like buttons inside article text. */
+.post-content a.subscribe-button,
+.post-content a.subscribe-button:hover {
+    color: #fff;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.post-content .post-subscribe {
+    margin-bottom: var(--gap);
+}

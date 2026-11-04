@@ -55,6 +55,7 @@ params:
   newsletter:
     text: Subscribe on LinkedIn
     postPrompt: Get new posts from Thinking in Motion in your LinkedIn feed.
+    connectUrl: https://www.linkedin.com/in/brettearle/
     url: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7523480655897198592
 
   socialIcons:

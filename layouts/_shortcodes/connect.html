@@ -1,0 +1,9 @@
+{{- with site.Params.newsletter }}
+<aside class="post-subscribe">
+    <p>Let's keep the conversation going. Connect with me or follow along on LinkedIn.</p>
+    <div class="subscribe-actions">
+        <a class="subscribe-button" href="{{ .connectUrl | safeURL }}" target="_blank" rel="noopener noreferrer me">Connect with me</a>
+        <a class="subscribe-button" href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer">{{ .text }}</a>
+    </div>
+</aside>
+{{- end }}
