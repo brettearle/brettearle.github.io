@@ -4,7 +4,7 @@ baseURL: /
 title: Thinking in Motion
 theme: PaperMod
 locale: en-au
-timeZone: Australia/Sydney
+timeZone: Australia/Adelaide
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -54,6 +54,7 @@ params:
 
   newsletter:
     text: Subscribe on LinkedIn
+    postPrompt: Get new posts from Thinking in Motion in your LinkedIn feed.
     url: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7523480655897198592
 
   socialIcons:

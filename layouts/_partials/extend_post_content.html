@@ -1,0 +1,9 @@
+{{- /* Shown after every post, but not on standalone pages like About. */ -}}
+{{- if and (eq .Section "posts") site.Params.newsletter }}
+{{- with site.Params.newsletter }}
+<aside class="post-subscribe">
+    <p>{{ .postPrompt }}</p>
+    <a class="subscribe-button" href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer">{{ .text }}</a>
+</aside>
+{{- end }}
+{{- end }}

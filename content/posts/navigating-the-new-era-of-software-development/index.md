@@ -3,7 +3,7 @@ title: "Navigating the new era of software development takes work"
 date: 2026-11-04
 draft: false
 summary: "Software development has not fundamentally changed in the age of AI despite how it feels, what has changed is how we work. Writing code is taking up less of our time, this does not change our core value of producing reliable, robust systems that solve real problems."
-tags: [software development, ai, productivity]
+tags: [software development, AI, productivity]
 cover:
   image: cover.png
   alt: "Aerial view of a road winding through dense green forest, overlaid with the words: The work hasn't changed. How we do it has."
