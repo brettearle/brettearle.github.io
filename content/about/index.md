@@ -1,12 +1,24 @@
 ---
-title: About
+title: About Me
 hidemeta: true
 ---
 
 ![Thinking in Motion logo](logo.png)
 
-I'm Brett Earle, a software developer based in Adelaide, South Australia. I like building projects, implementing ideas and solving problems. Outside of work that usually means small tools in Go, like a lightweight feature flag service and a terminal task manager.
+I'm Brett Earle, a software engineer with a passion for building things, solving problems, and understanding how the world works.
 
-Thinking in Motion is where I work things out in writing. It explores technology, productivity and philosophy to think clearly and navigate change. Lately that means how AI is reshaping the day to day of software development, and what stays the same underneath it.
+My background spans software engineering, technical leadership, and a few less conventional paths along the way. I've always been drawn to figuring out how things work, questioning why we do things a certain way, and finding better ways forward.
 
-It started as a [newsletter on LinkedIn](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7523480655897198592), and this site is its home on the open web. You can also [connect with me on LinkedIn](https://www.linkedin.com/in/brettearle/).
+I'm particularly interested in the intersection of **technology, productivity, and philosophy**. How we think, how we work, and how we adapt to a world that's changing faster than ever.
+
+I enjoy exploring ideas, challenging assumptions, and turning what I learn into something practical. Whether that's building better software, improving how I work, or borrowing ideas from philosophy to make better decisions.
+
+## Thinking in Motion
+
+Thinking in Motion is my space to write about those interests.
+
+It's part learning journal, part exploration of ideas, and part reflection on the changing world around us.
+
+I'm not here to pretend I have all the answers. I'm here to think out loud, share what I'm learning, and hopefully spark a few worthwhile conversations.
+
+**Think clearly. Move deliberately.**
